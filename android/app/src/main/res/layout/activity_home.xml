@@ -32,11 +32,14 @@
         android:id="@+id/bottomNavi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/fragfile"
+        app:itemIconTint="@color/design_default_color_on_secondary"
         app:itemTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_bottom" />
 
     <FrameLayout
         android:id="@+id/main_frame"
