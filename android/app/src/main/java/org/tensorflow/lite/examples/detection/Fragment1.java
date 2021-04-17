@@ -20,7 +20,7 @@ public class Fragment1 extends Fragment {
                              Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_1,container,false);
 
-    toServerBtn = view.findViewById(R.id.toServerBtn);
+    toServerBtn = view.findViewById(R.id.toServerBtn1);
     toServerBtn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {

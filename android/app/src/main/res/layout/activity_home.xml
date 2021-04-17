@@ -3,30 +3,50 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#1A282D">
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/cardview_shadow_start_color"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Clover"
-            android:textColor="#1CCA68"
-            android:textSize="35sp"
-            tools:layout_editor_absoluteX="52dp"
-            tools:layout_editor_absoluteY="6dp" />
+            android:orientation="horizontal"
+android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/image2" />
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="수어쉬워"-->
+<!--                    android:gravity="center"-->
+<!--                   android:textColor="#FFFFFF"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:fontFamily="@font/bmdohyeon"-->
+<!--                    tools:layout_editor_absoluteX="52dp"-->
+<!--                    tools:layout_editor_absoluteY="6dp" />-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#DEDADA"/>
+        </LinearLayout>
+
 
     </androidx.appcompat.widget.Toolbar>
-
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavi"

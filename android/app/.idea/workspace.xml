@@ -24,14 +24,34 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88f4d305-3dbf-46bf-bd2c-664afa0dc58e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/loupe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/btn_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/main_btn1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/bmdohyeon.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/bmhannapro.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/bmjua.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/font.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/font1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/font2.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/font3.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/fonttt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/imcre.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/kotra_bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/nmhanna.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/font/reci.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -45,16 +65,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Fragment1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/menu/menu_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/menu_bottom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_28]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -78,8 +98,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/src/main/res" />
     </key>
     <key name="android.template.-1655274450">
       <recent name="org.tensorflow.lite.examples.detection" />
@@ -87,9 +108,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.tensorflow.lite.examples.detection" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/res/drawable-v24" />
       <recent name="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi" />
-      <recent name="$PROJECT_DIR$/src/main/res" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,7 +197,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -189,10 +227,11 @@
     </state>
     <state x="493" y="345" key="#PSD/0.25.1680.943@0.25.1680.943" timestamp="1618314315017" />
     <state x="751" y="477" key="#PSD/2560.-515.1440.2535/-1680.227.1680.1025/0.25.2560.1332@0.25.2560.1332" timestamp="1618230845490" />
-    <state x="998" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618315358681">
-      <screen x="0" y="25" width="1680" height="943" />
+    <state x="1521" y="358" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618498789100">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state x="998" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1680.943@0.25.1680.943" timestamp="1618315358681" />
+    <state x="1521" y="358" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618498789100" />
     <state x="1380" y="125" width="1080" height="1133" key="AVDManager" timestamp="1618445542872">
       <screen x="0" y="25" width="2560" height="1333" />
     </state>
@@ -201,28 +240,32 @@
       <screen x="0" y="25" width="2560" height="1333" />
     </state>
     <state x="1380" y="125" width="1080" height="1132" key="DiffContextDialog/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618413182877" />
-    <state width="1396" height="1128" key="GridCell.Tab.0.bottom" timestamp="1618417145513">
-      <screen x="2560" y="-334" width="1440" height="2535" />
+    <state width="618" height="596" key="GridCell.Tab.0.bottom" timestamp="1618504063519">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.bottom/0.25.1680.943@0.25.1680.943" timestamp="1618315144577" />
+    <state width="618" height="596" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063519" />
     <state width="1396" height="1128" key="GridCell.Tab.0.bottom/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145513" />
     <state width="1236" height="200" key="GridCell.Tab.0.bottom/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599473" />
-    <state width="1396" height="1128" key="GridCell.Tab.0.center" timestamp="1618417145512">
-      <screen x="2560" y="-334" width="1440" height="2535" />
+    <state width="618" height="596" key="GridCell.Tab.0.center" timestamp="1618504063519">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.center/0.25.1680.943@0.25.1680.943" timestamp="1618315144577" />
+    <state width="618" height="596" key="GridCell.Tab.0.center/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063519" />
     <state width="1396" height="1128" key="GridCell.Tab.0.center/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145512" />
     <state width="1236" height="200" key="GridCell.Tab.0.center/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599472" />
-    <state width="1396" height="1128" key="GridCell.Tab.0.left" timestamp="1618417145512">
-      <screen x="2560" y="-334" width="1440" height="2535" />
+    <state width="618" height="596" key="GridCell.Tab.0.left" timestamp="1618504063518">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.left/0.25.1680.943@0.25.1680.943" timestamp="1618315144576" />
+    <state width="618" height="596" key="GridCell.Tab.0.left/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063518" />
     <state width="1396" height="1128" key="GridCell.Tab.0.left/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145512" />
     <state width="1236" height="200" key="GridCell.Tab.0.left/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599472" />
-    <state width="1396" height="1128" key="GridCell.Tab.0.right" timestamp="1618417145513">
-      <screen x="2560" y="-334" width="1440" height="2535" />
+    <state width="618" height="596" key="GridCell.Tab.0.right" timestamp="1618504063519">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.right/0.25.1680.943@0.25.1680.943" timestamp="1618315144577" />
+    <state width="618" height="596" key="GridCell.Tab.0.right/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063519" />
     <state width="1396" height="1128" key="GridCell.Tab.0.right/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145513" />
     <state width="1236" height="200" key="GridCell.Tab.0.right/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599472" />
     <state x="550" y="309" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1618314337923">
