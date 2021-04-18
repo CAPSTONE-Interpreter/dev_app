@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class Fragment1 extends Fragment {
 
-    private Button toServerBtn;
+    private Button textBtn, photoBtn, motionBtn;
 
     public Fragment1() {
         // Required empty public constructor
@@ -20,8 +20,8 @@ public class Fragment1 extends Fragment {
                              Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_1,container,false);
 
-    toServerBtn = view.findViewById(R.id.toServerBtn1);
-    toServerBtn.setOnClickListener(new View.OnClickListener() {
+        motionBtn = view.findViewById(R.id.motion);
+        motionBtn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Intent intent = new Intent(view.getContext(), Test.class);

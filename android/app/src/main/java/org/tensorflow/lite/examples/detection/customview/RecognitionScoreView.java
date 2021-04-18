@@ -46,6 +46,9 @@ public class RecognitionScoreView extends View implements ResultsView {
 
   @Override
   public void setResults(final List<Recognition> results) {
+    System.out.println(
+            "asdasdasdasd: "+results
+    );
     this.results = results;
     postInvalidate();
   }

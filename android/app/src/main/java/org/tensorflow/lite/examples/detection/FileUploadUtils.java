@@ -16,16 +16,17 @@ import okhttp3.Response;
 public class FileUploadUtils {
     public static void send2Server(File file) {
         Log.v("태그","메시지");
-        RequestBody requestBody = new MultipartBody.Builder()
-                .setType(MultipartBody.FORM)
-                .addFormDataPart("files", file.getName(), RequestBody.create(MultipartBody.FORM, file))
-                .build();
+//        RequestBody requestBody = new MultipartBody.Builder()
+//                .setType(MultipartBody.FORM)
+//                .addFormDataPart("files", file.getName(), RequestBody.create(MultipartBody.FORM, file))
+//                .build();
 
         Request request = new Request.Builder()
-                .url("http://172.30.1.52:18080/upload")
-                .post(requestBody)
+                .url("http://12d24798d76d.ngrok.io/api/text")
+//                .post(requestBody)
                 .build();
         OkHttpClient client = new OkHttpClient();
+        Log.v("태그","pass");
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {

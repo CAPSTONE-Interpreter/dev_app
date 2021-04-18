@@ -58,7 +58,7 @@
 
 
                 <Button
-                    android:id="@+id/toServerBtn1"
+                    android:id="@+id/text"
                     android:layout_width="170dp"
                     android:layout_height="170dp"
                     android:background="@drawable/main_btn1"
@@ -74,7 +74,7 @@
 
 
                 <Button
-                    android:id="@+id/toServerBtn2"
+                    android:id="@+id/photo"
                     android:layout_width="170dp"
                     android:layout_height="170dp"
                     android:layout_marginLeft="10dp"
@@ -100,7 +100,7 @@
 
 
                 <Button
-                    android:id="@+id/toServerBtn3"
+                    android:id="@+id/motion"
                     android:layout_width="170dp"
                     android:layout_height="170dp"
                     android:background="@drawable/main_btn1"
