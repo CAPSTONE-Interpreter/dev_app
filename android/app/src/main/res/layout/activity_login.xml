@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#162226"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
@@ -22,7 +22,7 @@
         android:background="#00000000"
         android:enabled="true"
         android:text="회원 가입"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="80dp"
-        android:background="@drawable/bin_blue"
+        android:background="@drawable/btn_background"
         android:enabled="true"
         android:text="로그인"
         android:textColor="#FFFFFF"
@@ -54,9 +54,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="228dp"
         android:layout_marginEnd="24dp"
         android:selectAllOnFocus="true"
+        android:hint="이메일"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2C3D47"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
@@ -68,7 +72,11 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
+        android:textColor="#FFFFFF"
 
+        android:hint="비밀번호"
+        android:backgroundTint="#2C3D47"
+        android:textColorHint="#FFFFFF"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
@@ -94,44 +102,66 @@
         app:layout_constraintVertical_bias="0.3" />
 
 
-    <!--    <TextView-->
-    <!--        android:id="@+id/title"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"-->
-    <!--        android:layout_marginTop="12dp"-->
-    <!--        android:fontFamily="@font/fonttt"-->
-    <!--        android:text="Clover"-->
-    <!--        android:textColor="#50B08E"-->
-    <!--        android:textColorHighlight="#66C251"-->
-    <!--        android:textColorLink="#34BF3A"-->
-    <!--        android:textSize="60sp"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/signin" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/title"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:fontFamily="@font/fonttt"-->
+<!--            android:text="Clover"-->
+<!--            android:textColor="#50B08E"-->
+<!--            android:textColorHighlight="#66C251"-->
+<!--            android:textColorLink="#34BF3A"-->
+<!--            android:textSize="60sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/signin" />-->
 
     <TextView
         android:id="@+id/subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="Your partner for a successful resume"
+        android:text="Your Partner for Sign Language Communication"
+        android:textColor="@android:color/white"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="158dp"
         android:layout_height="180dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="88dp"
-        android:src="@drawable/logo2"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/image2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="@font/bmhannapro"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="수어쉬워"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

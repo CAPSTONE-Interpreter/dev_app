@@ -115,14 +115,18 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
     previewWidth = size.getWidth();
     previewHeight = size.getHeight();
-
+    System.out.println(
+            "1"
+    );
     sensorOrientation = rotation - getScreenOrientation();
     LOGGER.i("Camera orientation relative to screen canvas: %d", sensorOrientation);
 
     LOGGER.i("Initializing at size %dx%d", previewWidth, previewHeight);
     rgbFrameBitmap = Bitmap.createBitmap(previewWidth, previewHeight, Config.ARGB_8888);
     croppedBitmap = Bitmap.createBitmap(cropSize, cropSize, Config.ARGB_8888);
-
+    System.out.println(
+            "2"
+    );
     frameToCropTransform =
         ImageUtils.getTransformationMatrix(
             previewWidth, previewHeight,
@@ -131,7 +135,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
     cropToFrameTransform = new Matrix();
     frameToCropTransform.invert(cropToFrameTransform);
-
+    System.out.println(
+            "3"
+    );
     trackingOverlay = (OverlayView) findViewById(R.id.tracking_overlay);
     trackingOverlay.addCallback(
         new DrawCallback() {
@@ -143,8 +149,13 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
             }
           }
         });
-
+    System.out.println(
+            "4"
+    );
     tracker.setFrameConfiguration(previewWidth, previewHeight, sensorOrientation);
+    System.out.println(
+            "4"
+    );
   }
 
   @Override
@@ -197,7 +208,6 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
             final List<Detector.Recognition> mappedRecognitions =
                 new ArrayList<Detector.Recognition>();
-
             for (final Detector.Recognition result : results) {
               final RectF location = result.getLocation();
               if (location != null && result.getConfidence() >= minimumConfidence) {
@@ -209,6 +219,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                 mappedRecognitions.add(result);
               }
             }
+            System.out.println("asdasd: "+ mappedRecognitions);
 
             tracker.trackResults(mappedRecognitions, currTimestamp);
             trackingOverlay.postInvalidate();
