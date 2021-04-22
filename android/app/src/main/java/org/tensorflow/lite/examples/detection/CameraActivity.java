@@ -118,7 +118,7 @@ public abstract class CameraActivity extends AppCompatActivity
     bottomButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        Intent intent = new Intent(CameraActivity.this, TextSearch.class);
+        Intent intent = new Intent(CameraActivity.this, Test.class);
         startActivity(intent);
       }
     });

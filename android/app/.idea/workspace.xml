@@ -36,6 +36,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88f4d305-3dbf-46bf-bd2c-664afa0dc58e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Fragment3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Fragment4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/xml/network_security_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -46,19 +51,32 @@
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/CameraActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/CameraActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/DetectorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/DetectorActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/FileUploadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Fragment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/PhotoSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/PhotoSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/TextSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/TextSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/customview/RecognitionScoreView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tensorflow/lite/examples/detection/customview/RecognitionScoreView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_photo_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_photo_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_text_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_text_search.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tfe_od_activity_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/tfe_od_activity_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/outputs/aar/lib_interpreter-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/outputs/aar/lib_interpreter-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib_interpreter/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib_interpreter/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +106,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6_API_28" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-18T15:54:41.452Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-18T07:33:23.581Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -103,26 +121,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1655274450">
-      <recent name="org.tensorflow.lite.examples.detection" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/res/drawable-v24" />
       <recent name="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="android.template.-1655274450">
       <recent name="org.tensorflow.lite.examples.detection" />
     </key>
-    <key name="android.template.-885818239">
-      <recent name="org.tensorflow.lite.examples" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tensorflow.lite.examples.detection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi" />
       <recent name="$PROJECT_DIR$/src/main/res" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.tensorflow.lite.examples.detection" />
     </key>
   </component>
   <component name="RunManager">
@@ -239,14 +251,6 @@
     </state>
     <state x="493" y="345" key="#PSD/0.25.1680.943@0.25.1680.943" timestamp="1618314315017" />
     <state x="751" y="477" key="#PSD/2560.-515.1440.2535/-1680.227.1680.1025/0.25.2560.1332@0.25.2560.1332" timestamp="1618230845490" />
-    <state x="810" y="605" width="939" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618750546405">
-      <screen x="0" y="25" width="2560" height="1415" />
-    </state>
-    <state x="810" y="605" width="939" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618750546405" />
-    <state x="896" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618750081374">
-      <screen x="0" y="25" width="2560" height="1415" />
-    </state>
-    <state x="896" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618750081374" />
     <state x="1521" y="358" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618498789100">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
@@ -269,49 +273,45 @@
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state x="1068" y="478" key="FileChooserDialogImpl/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618680019519" />
-    <state width="1238" height="876" key="GridCell.Tab.0.bottom" timestamp="1618929757623">
+    <state width="2518" height="477" key="GridCell.Tab.0.bottom" timestamp="1618744589490">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.bottom/0.25.1680.943@0.25.1680.943" timestamp="1618315144577" />
     <state width="618" height="596" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063519" />
     <state width="1953" height="305" key="GridCell.Tab.0.bottom/0.25.2560.1415/450.1465.1680.943@0.25.2560.1415" timestamp="1618682245870" />
     <state width="1636" height="171" key="GridCell.Tab.0.bottom/0.25.2560.1415/450.1465.1680.943@450.1465.1680.943" timestamp="1618681327617" />
-    <state width="1238" height="876" key="GridCell.Tab.0.bottom/2560.-334.1440.2453/0.25.2560.1415/-1680.769.1680.1025@0.25.2560.1415" timestamp="1618929757623" />
     <state width="1396" height="1128" key="GridCell.Tab.0.bottom/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145513" />
-    <state width="2518" height="477" key="GridCell.Tab.0.bottom/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618749447484" />
+    <state width="2518" height="477" key="GridCell.Tab.0.bottom/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618744589490" />
     <state width="1236" height="200" key="GridCell.Tab.0.bottom/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599473" />
-    <state width="1238" height="876" key="GridCell.Tab.0.center" timestamp="1618929757622">
+    <state width="2518" height="477" key="GridCell.Tab.0.center" timestamp="1618744589489">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.center/0.25.1680.943@0.25.1680.943" timestamp="1618315144577" />
     <state width="618" height="596" key="GridCell.Tab.0.center/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063519" />
     <state width="1953" height="305" key="GridCell.Tab.0.center/0.25.2560.1415/450.1465.1680.943@0.25.2560.1415" timestamp="1618682245869" />
     <state width="1636" height="171" key="GridCell.Tab.0.center/0.25.2560.1415/450.1465.1680.943@450.1465.1680.943" timestamp="1618681327616" />
-    <state width="1238" height="876" key="GridCell.Tab.0.center/2560.-334.1440.2453/0.25.2560.1415/-1680.769.1680.1025@0.25.2560.1415" timestamp="1618929757622" />
     <state width="1396" height="1128" key="GridCell.Tab.0.center/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145512" />
-    <state width="2518" height="477" key="GridCell.Tab.0.center/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618749447482" />
+    <state width="2518" height="477" key="GridCell.Tab.0.center/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618744589489" />
     <state width="1236" height="200" key="GridCell.Tab.0.center/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599472" />
-    <state width="1238" height="876" key="GridCell.Tab.0.left" timestamp="1618929757622">
+    <state width="2518" height="477" key="GridCell.Tab.0.left" timestamp="1618744589489">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.left/0.25.1680.943@0.25.1680.943" timestamp="1618315144576" />
     <state width="618" height="596" key="GridCell.Tab.0.left/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063518" />
     <state width="1953" height="305" key="GridCell.Tab.0.left/0.25.2560.1415/450.1465.1680.943@0.25.2560.1415" timestamp="1618682245869" />
     <state width="1636" height="171" key="GridCell.Tab.0.left/0.25.2560.1415/450.1465.1680.943@450.1465.1680.943" timestamp="1618681327615" />
-    <state width="1238" height="876" key="GridCell.Tab.0.left/2560.-334.1440.2453/0.25.2560.1415/-1680.769.1680.1025@0.25.2560.1415" timestamp="1618929757622" />
     <state width="1396" height="1128" key="GridCell.Tab.0.left/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145512" />
-    <state width="2518" height="477" key="GridCell.Tab.0.left/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618749447482" />
+    <state width="2518" height="477" key="GridCell.Tab.0.left/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618744589489" />
     <state width="1236" height="200" key="GridCell.Tab.0.left/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599472" />
-    <state width="1238" height="876" key="GridCell.Tab.0.right" timestamp="1618929757623">
+    <state width="2518" height="477" key="GridCell.Tab.0.right" timestamp="1618744589489">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="796" height="373" key="GridCell.Tab.0.right/0.25.1680.943@0.25.1680.943" timestamp="1618315144577" />
     <state width="618" height="596" key="GridCell.Tab.0.right/0.25.2560.1415/2560.-334.1440.2535/555.1465.1680.943@0.25.2560.1415" timestamp="1618504063519" />
     <state width="1953" height="305" key="GridCell.Tab.0.right/0.25.2560.1415/450.1465.1680.943@0.25.2560.1415" timestamp="1618682245870" />
     <state width="1636" height="171" key="GridCell.Tab.0.right/0.25.2560.1415/450.1465.1680.943@450.1465.1680.943" timestamp="1618681327617" />
-    <state width="1238" height="876" key="GridCell.Tab.0.right/2560.-334.1440.2453/0.25.2560.1415/-1680.769.1680.1025@0.25.2560.1415" timestamp="1618929757623" />
     <state width="1396" height="1128" key="GridCell.Tab.0.right/2560.-334.1440.2535/0.25.2560.1333/-1680.227.1680.1025@2560.-334.1440.2535" timestamp="1618417145513" />
-    <state width="2518" height="477" key="GridCell.Tab.0.right/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618749447483" />
+    <state width="2518" height="477" key="GridCell.Tab.0.right/2560.-334.1440.2535/0.25.2560.1415/466.1465.1680.943@0.25.2560.1415" timestamp="1618744589489" />
     <state width="1236" height="200" key="GridCell.Tab.0.right/2560.-515.1440.2535/0.25.2560.1333/-1680.227.1680.1025@0.25.2560.1333" timestamp="1618330599472" />
     <state x="781" y="368" key="SettingsEditor" timestamp="1618681625029">
       <screen x="0" y="25" width="2560" height="1415" />

@@ -22,7 +22,7 @@ import java.util.Date;
 
 //import io.netty.handler.codec.http.multipart.FileUpload;
 
-public class PhotoSearch extends AppCompatActivity {
+public class Test extends AppCompatActivity {
 
     private Button gogo;
     private ImageView imageViewSelected;
@@ -32,14 +32,14 @@ public class PhotoSearch extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photo_search);
+        setContentView(R.layout.activity_test);
 
         buttonImageSend = findViewById(R.id.btnImageSend);
 //        buttonImageSend.setEnabled(false);
         buttonImageSend.setOnClickListener(new View.OnClickListener() {
                                                @Override
                                                public void onClick(View view){
-                                                   FileUploadUtils.send2Server(tempSelectFile);
+                FileUploadUtils.send2Server(tempSelectFile);
                                                }
                                            }
         );
@@ -62,7 +62,7 @@ public class PhotoSearch extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Toast.makeText(getApplicationContext(),"로그인 되었습니다.", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(PhotoSearch.this, DetectorActivity.class);
+                Intent intent = new Intent(Test.this, DetectorActivity.class);
                 startActivity(intent);
             }
         });

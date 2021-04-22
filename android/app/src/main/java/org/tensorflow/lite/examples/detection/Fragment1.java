@@ -20,31 +20,13 @@ public class Fragment1 extends Fragment {
                              Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_1,container,false);
 
-//    text
-        textBtn = view.findViewById(R.id.text);
-        textBtn.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(view.getContext(), TextSearch.class);
-            startActivity(intent);
-        }});
-//photo
-        photoBtn = view.findViewById(R.id.photo);
-        photoBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(view.getContext(), PhotoSearch.class);
-                startActivity(intent);
-            }}
-            );
-//motion
         motionBtn = view.findViewById(R.id.motion);
         motionBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(view.getContext(), DetectorActivity.class);
-                startActivity(intent);
-            }});
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(view.getContext(), Test.class);
+            startActivity(intent);
+        }});
 
 
         // Inflate the layout for this fragment
