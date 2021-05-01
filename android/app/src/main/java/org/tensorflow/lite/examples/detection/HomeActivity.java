@@ -21,8 +21,8 @@ public class HomeActivity extends FragmentActivity {
     private FragmentTransaction ft;
     private Fragment1 fragment1;
     private Fragment2 fragment2;
-//    private Fragment3 fragment3;
-//    private Fragment4 fragment4;
+    private Fragment3 fragment3;
+    private Fragment4 fragment4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +52,8 @@ public class HomeActivity extends FragmentActivity {
 
         fragment1 = new Fragment1();
         fragment2 = new Fragment2();
+        fragment3 = new Fragment3();
+        fragment4 = new Fragment4();
         setFragment(0);
 
     }
@@ -65,6 +67,14 @@ public class HomeActivity extends FragmentActivity {
                 break;
             case 1:
                 ft.replace(R.id.main_frame, fragment2);
+                ft.commit(); //저장을 의미
+                break;
+            case 2:
+                ft.replace(R.id.main_frame, fragment3);
+                ft.commit(); //저장을 의미
+                break;
+            case 3:
+                ft.replace(R.id.main_frame, fragment4);
                 ft.commit(); //저장을 의미
                 break;
         }
