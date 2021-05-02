@@ -10,14 +10,17 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private Button goBtn;
+    private Button login;
+    private Button register;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        goBtn = findViewById(R.id.register);
-        goBtn.setOnClickListener(new View.OnClickListener(){
+        login = findViewById(R.id.login);
+        register = findViewById(R.id.register);
+
+        login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 Toast.makeText(getApplicationContext(),"로그인 되었습니다.", Toast.LENGTH_LONG).show();
@@ -25,5 +28,14 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        register.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

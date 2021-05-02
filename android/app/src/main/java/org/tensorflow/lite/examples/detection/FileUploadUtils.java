@@ -8,6 +8,7 @@ import java.lang.ref.ReferenceQueue;
 
 import okhttp3.Call;
 import okhttp3.Callback;
+import okhttp3.FormBody;
 import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -21,12 +22,14 @@ public class FileUploadUtils {
 //                .setType(MultipartBody.FORM)
 //                .addFormDataPart("files", file.getName(), RequestBody.create(MultipartBody.FORM, file))
 //                .build();
-
+        RequestBody requestBody = new FormBody.Builder()
+                .add("key", "keykey")
+                .build();
         Request request = new Request.Builder()
 //                .url("http://127.0.0.1:8000/app/hello/")
 
-                .url("http://10.0.2.2:8000/app/hello/")
-//                .post(requestBody)
+                .url("http://bb6be6b454ce.ngrok.io/api/post")
+                .post(requestBody)
                 .build();
         OkHttpClient client = new OkHttpClient();
         Log.v("태그", "pass");

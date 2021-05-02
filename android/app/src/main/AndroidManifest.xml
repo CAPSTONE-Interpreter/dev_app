@@ -26,6 +26,7 @@
         android:usesCleartextTraffic="true">
         <activity android:name=".PhotoSearch"></activity>
         <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
